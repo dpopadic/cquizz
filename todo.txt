@@ -1,0 +1,19 @@
+# things to review..
+
+math ---------------------------
+- eigenvalues and eigenvectors
+- integral and derivations
+- optimisation
+- linear algebra (matrix multiplication etc.)
+
+models -------------------------
+- black-litterman
+- machine learning
+
+stats --------------------------
+- tests
+- distributions
+- formula derivation (eg. variance)
+
+programming --------------------
+- programming languages pros/cons
