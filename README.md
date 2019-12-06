@@ -5,7 +5,7 @@ Useful url's
 ------------
 
 - maths & programming problems platform
-> projecteuler.net/
+> https://projecteuler.net/
 > https://www.janestreet.com/puzzles/
 > http://www.qbyte.org/puzzles/
 > http://tutorial.math.lamar.edu/
