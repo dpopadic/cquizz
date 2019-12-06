@@ -8,6 +8,7 @@ Useful url's
 > projecteuler.net/
 > https://www.janestreet.com/puzzles/
 > http://www.qbyte.org/puzzles/
+> http://tutorial.math.lamar.edu/
 
 - coding
 > https://www.geeksforgeeks.org/
