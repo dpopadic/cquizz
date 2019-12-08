@@ -1,14 +1,8 @@
 # LINEAR ALGEBRA OPERATIONS --------------------------------
 import numpy as np
 import pandas as pd
+from math import factorial
 
-np.log(1)
-np.log(1/2)*0.5
-(1+np.log(1/2))*0.5
-
-0.5 - (-0.5*np.log(0.5))
-np.sum([2,3,4,5,6])/5
-4*6/6+1/6
 # arrays ----------------
 # simple array
 A = np.array([[1,2,3],[1,2,3],[1,2,3]])

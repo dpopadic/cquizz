@@ -55,8 +55,6 @@ def binary_search_iterative(array, item):
 
 # SQUARE ROOT ALGO ---------------------------------------
 
-sq_root(2)
-
 def sq_root(number):
     x=number
     eps=1e-15
@@ -66,8 +64,10 @@ def sq_root(number):
         print("There is no real solution for square roots of negative numbers.")
 
     while abs(x - number / x) > eps * x:
-        x = (number / x + x) / 2
+        x = (x + number / x) / 2
     return(x)
+
+sq_root(2)
 
 # in general function approximation..
 def func(x):
@@ -82,6 +82,32 @@ def newtonRaphson(x):
         x = x - h
     return(x)
 newtonRaphson(9)
+
+
+# FACTORIAL (RECURSIVE FUNCTION) ---------------------------
+
+def ffactorial(x):
+    if(x == 0):
+        res = 1
+    else:
+        res = x * ffactorial(x - 1)
+    return(res)
+
+ffactorial(2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
