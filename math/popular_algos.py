@@ -123,6 +123,10 @@ def trans_unif_norm(x):
 
 
 # SORTING ALGO --------------------------------------------
+
+
+
+import numpy as np
 ax = [5, 3, 6, 8, 9, 12, 5, 1, 7]
 a = []
 k = 3
