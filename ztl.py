@@ -10,12 +10,6 @@ import numpy as np
 # to find out whether there exists a *pair* of integers in L which sum up to s. What's
 # the time complexity of this program? Can you find a faster version?
 
-# algo to compute square root
-
-# sorting algo
-
-# why python (vs R)? because of general purpose libraries for translation, text extraction from img etc..
-
 # write code that finds element in list that only appears once
 
 # other:

@@ -1,28 +1,20 @@
 # cquizz
 Coding Quizzes
 
-Useful url's
-------------
+> Largest prime factor of a number ```max_prime_factor```
 
-- maths & programming problems platform
-> https://projecteuler.net/
-> https://www.janestreet.com/puzzles/
-> http://www.qbyte.org/puzzles/
-> http://tutorial.math.lamar.edu/
 
-- coding
-> https://www.geeksforgeeks.org/
-> https://edabit.com/
-> https://pythonbasics.org/exercises/
 
-- machine learning
-> https://pythonprogramminglanguage.com/python-machine-learning/
+Some useful url's
+-----------------
 
-- quant finance topics
-> http://www.streetofwalls.com/finance-training-courses/
+- https://projecteuler.net/
 
-- books
-> The Moscow Puzzles: 359 Mathematical Recreations
-> Heard on The Street: Quantitative Questions from Wall Street Job Interviews
+- https://www.janestreet.com/puzzles/
+
+- http://www.qbyte.org/puzzles/
+
+- https://www.geeksforgeeks.org/
+
 
 
