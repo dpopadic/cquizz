@@ -10,8 +10,6 @@ develop problem solving skills.
 
 > Binary search```algo_binary_search```
 
-> Recursive factorial algorithm```algo_recursion_factorial```
-
 > Newton's method square-root algorithm ```algo_square_root```
 
 > Uniform to normal distribution ```algo_uniform_to_normal```
