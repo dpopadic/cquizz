@@ -34,6 +34,44 @@ def comp_factorial(x):
 comp_factorial(4)
 
 
+# --------------------------------------------
+# Q4: Given an integer n, write a program that returns a dictionary that contains i, i*i where i ranges from 1 to n.
+# difficulty level: 1
+n = 8
+d = {i: i**2 for i in range(1, n+1)}
+
+
+# --------------------------------------------
+# Q5: Define a class which has at least two methods:
+# getString: to get a string from console input and printString: to print the string in upper case
+# Also include a simple test function to test the class methods.
+# difficulty level: 1
+
+class StrInOut(object):
+    def __init__(self):
+        self.s = ""
+
+    def getString(self):
+        self.s = input()
+
+    def printString(self):
+        print(self.s.upper())
+
+so = StrInOut()
+so.getString() # type: this is my string
+so.printString()
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
