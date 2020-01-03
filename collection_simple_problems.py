@@ -62,6 +62,18 @@ so.getString() # type: this is my string
 so.printString()
 
 
+# --------------------------------------------
+# Q6: Write a program that accepts a sequence of separated words as input and prints the words after removing all 
+# duplicate words and sorting them alphabetically.
+# difficulty level: 1
+
+s = input() # example: s = "this is my sentence and this is my sentence again but this is not"
+sa = [word for word in s.split(" ")] # comma-seperated list
+print(sorted(set(sa)))
+
+
+
+
 
 
 
