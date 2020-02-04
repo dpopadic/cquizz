@@ -17,3 +17,9 @@ def trans_unif_norm(x):
     y = tmp.mean(axis=1)
     z = y[x.argsort()]
     return(z)
+
+# example..
+import numpy as np
+x = np.sort(np.random.random_integers(1, 1000, 100))
+x = np.random.random_integers(1, 1000, 100)
+y = trans_unif_norm(x)
