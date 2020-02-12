@@ -72,11 +72,25 @@ sa = [word for word in s.split(" ")] # comma-seperated list
 print(sorted(set(sa)))
 
 
+# --------------------------------------------
+# Q7: Write a program that takes 2 integers as inputs and generates a 2-dim array with elements i*j in i-th
+# row and j-th column.
 
+s = input() # comma-separated input (eg. 5, 6)
+sa = [int(i) for i in s.split(",")]
+mat = np.zeros(sa)
+for i in range(mat.shape[0]):
+    for j in range(mat.shape[1]):
+        mat[i, j] = i*j
 
+# alternatively, use a list comprehension
+s = input() # comma-separated input (eg. 5, 6)
+sa = [int(i) for i in s.split(",")]
+mat = [i*j for i in range(sa[0])
+       for j in range(sa[1])]
+mat = np.reshape(mat, sa)
 
-
-
+# some interesting speed ups: https://www.listendata.com/2019/07/python-list-comprehension-with-examples.html
 
 
 
