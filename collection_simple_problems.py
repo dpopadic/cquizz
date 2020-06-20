@@ -61,7 +61,7 @@ so = StrInOut()
 so.getString() # type: this is my string
 so.printString()
 
-
+import pandas as pd
 
 
 
